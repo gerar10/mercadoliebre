@@ -16,4 +16,4 @@ app.get('/register', (req,res) => {
     res.sendFile(path.resolve('./views/register.html'));
 });
 
-app.listen(PORT, () => console.log ('servidor en puerto 8080'));
+app.listen(PORT, () => console.log ('servidor en puerto 3000'));
